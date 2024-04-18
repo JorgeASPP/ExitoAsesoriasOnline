@@ -16,7 +16,7 @@ function Home (){
                 <div class="col-12 text-center">
                 <h1 class="display-inline"> 
                     <img src={images.standarIcon} class="section-logo" />
-                    Materias
+                    Inicio
                 </h1>
                 </div>
             </div>
