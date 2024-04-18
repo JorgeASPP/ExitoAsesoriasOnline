@@ -1,0 +1,108 @@
+/* Estilo para el formulario */
+.registro-form {
+    max-width: 400px;
+    margin: 100px auto; /* Centra el formulario en la página */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Bordes redondeados para el formulario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    background-color: #f9f9f9; /* Fondo claro para el formulario */
+}
+
+/* Estilo para el título del formulario */
+.registro-form h2 {
+    color: black;
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio entre el título y los campos de entrada */
+}
+
+/* Estilo para cada campo de entrada */
+.registro-form input {
+    width: 100%;
+    padding: 10px; /* Aumenta el tamaño del campo */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordes redondeados para los campos */
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Espacio entre los campos */
+}
+
+/* Estilo para el botón de envío */
+.registro-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer;
+}
+
+/* Cambia el color de fondo del botón al hacer hover */
+.registro-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la leyenda de iniciar sesión */
+.leyenda-iniciar-sesion {
+    margin-top: 10px; /* Espacio entre el botón y la leyenda */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilo para el hipervínculo de iniciar sesión */
+.leyenda-iniciar-sesion a {
+    color: #007bff; /* Color azul para el enlace */
+    margin-left: 5px; /* Espacio entre el texto y el enlace */
+}
+
+/* Cambia el color del hipervínculo al hacer hover */
+.leyenda-iniciar-sesion a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el contenedor principal */
+.registro-container {
+    max-width: 600px;
+    margin: 100px auto; /* Centra el contenedor en la página */
+}
+
+/* Estilo para el contenedor del logo */
+.logo-container {
+    text-align: center; /* Centra el contenido */
+    margin-bottom: 20px; /* Espacio entre el logo y el formulario */
+}
+
+/* Estilo para el logo */
+.logo-exito {
+    width: 100px; /* Tamaño del logo */
+    height: auto;
+}
+
+/* Estilo para el título "Exito" */
+.logo-container h2 {
+    margin-top: 5px; /* Espacio entre el logo y el título */
+    font-size: 24px; /* Tamaño del texto */
+    color: #007bff; /* Color del texto */
+}
+
+.centered-h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 0 auto; /* Centra el contenedor si el elemento tiene un ancho definido */
+}
+
+.social-icons {
+    display: flex;
+    color: black; /* Color de los íconos */
+    justify-content: center; /* Centra los íconos horizontalmente */
+    gap: 20px; /* Añade espacio entre los íconos */
+    margin-top: 10px;
+}
+
+.social-link {
+    font-size: 30px; /* Tamaño de los íconos */
+    color: black; /* Color de los íconos */
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+}
+
+.social-link:hover {
+    color: gray; /* Cambia el color de los íconos al pasar el cursor sobre ellos */
+}

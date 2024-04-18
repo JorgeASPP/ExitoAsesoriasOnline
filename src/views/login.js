@@ -4,6 +4,7 @@ import classes from '../styles/Login.module.css';
 import { images } from "../utils/Const";
 import styles from '../styles/Login.module.css';
 
+
 function Login() {
   const formRef = useRef(null);
 
@@ -12,7 +13,7 @@ function Login() {
     // Handle form submission logic here
   };
 
-  const toSignUp = useCallback(() => '/signup', []);
+  const toSignUp = useCallback(() => '/register', []);
   const toHome = useCallback(() => '/', []);
 
   return (

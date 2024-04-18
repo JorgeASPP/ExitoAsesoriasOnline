@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Login from './views/login';
 import Home from './views/home';
-import Singup from './views/singup';
+import Register from './views/register';
 import Tutors from './views/tutors';
 import Profile from './views/profile';
 import Agendar from './views/agendar';
@@ -13,7 +13,7 @@ import Agendar from './views/agendar';
 const router = createBrowserRouter([
   { path: '/', element: <Home/> },
   { path: '/login', element: <Login/> },
-  { path: '/singup', element: <Singup/> },
+  { path: '/register', element: <Register/> },
   { path: '/tutors', element: <Tutors/> },
   { path: '/profile', element: <Profile/> },
   { path: '/schedule', element: <Agendar/> },
