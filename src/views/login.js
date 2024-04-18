@@ -1,61 +1,89 @@
-import React, { useCallback, useRef } from "react";
-import { Link } from 'react-router-dom';
-import classes from '../styles/Login.module.css';
-import { images } from "../utils/Const";
-import styles from '../styles/Login.module.css';
+import React, { useState } from 'react';
+import '../styles/login.css';
+import '../images/logo512.png';
+
+const Login = () => {
+    // Estado para manejar los datos de los campos
+
+    const [formData, setFormData] = useState({
+        correo: '',
+        contrasena: '',
+    });
+
+    // Función para manejar los cambios de entrada
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    // Función para manejar el envío del formulario
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        window.location.href = '/';
+            return;   
+    };
+
+    return (
+        <div className="container" >
+            {/* Contenedor del logo y la leyenda */}
+
+            {/*<h1 className="centered-h1">Éxito</h1>
 
 
-function Login() {
-  const formRef = useRef(null);
+            {/* Formulario de registro */}
+            <form className="registro-form" onSubmit={handleSubmit}>
+                {/* Título del formulario */}
+                <h2>Iniciar Sesion</h2>
+                
+                {/* Campos de entrada */}
+               
+                <div>
+                    <label htmlFor="correo">Correo electrónico:</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="Ingresa tu correo electrónico"
+                        value={formData.correo}
+                        onChange={handleChange}
+                        required
+                    />
+                </div>
+                <div>
+                    <label htmlFor="contrasena">Contraseña:</label>
+                    <input
+                        type="password"
+                        id="contrasena"
+                        name="contrasena"
+                        placeholder="Ingresa tu contraseña"
+                        value={formData.contrasena}
+                        onChange={handleChange}
+                        required
+                    />
+                </div>
+              
+                <button type="submit">Iniciar Sesion</button>
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Handle form submission logic here
-  };
-
-  const toSignUp = useCallback(() => '/register', []);
-  const toHome = useCallback(() => '/', []);
-
-  return (
-    <div className={`${classes.login} container-fluid h-100 align-center text-center justify-content-center`}>
-      <div className={classes.loginCard}>
-        <div className='row'>
-          <h1>
-            <img className={classes.logo} src={images.logo} alt="Exito Logo" />
-            <span>Exito</span>
-          </h1>
-          <h2 className='title'>Bienvenido</h2>
-        </div>
-        <div className='row-title'>
-          <div className='col-xl-6 col-12'>
-            <form ref={formRef} onSubmit={handleSubmit} className='form'>
-              <label htmlFor='email' className='label'>Email</label>
-              <input className='input-text' id='email' type="text" placeholder="Ingrese su email" />
-              <label htmlFor='pass' className='label'>Contraseña</label>
-              <input className='input-text' id='pass' type="password" placeholder="Ingrese su contraseña" />
-              <span className='text-end w-100 d-block'><a>¿Has olvidado tu contraseña?</a></span>
-              <Link to={toHome()} className='btn-fill'>Iniciar Sesión</Link>
-              <Link to={toSignUp()} className='btn-line'>Registrarse</Link>
-              <Link to={toSignUp()} style={{ color: 'black', textDecoration: 'none' }}>
-                ¿No tienes una cuenta?
-              </Link>
+                {/* Sección para la leyenda de iniciar sesión */}
+                <div className="leyenda-iniciar-sesion">
+                    <span>¿No tienes una cuenta?</span>
+                    <a href="/register">Registrarse</a>
+                    <div className="social-icons">
+                        <a href="https://www.facebook.com" className="social-link">
+                            <i className="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.google.com" className="social-link">
+                            <i className="fab fa-google"></i>
+                        </a>
+                        <a href="https://www.instagram.com" className="social-link">
+                            <i className="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
             </form>
-          </div>
-          <div className='col-xl-6 col-12'>
-            <img className='banner' src={images.login} alt="Login Banner" />
-          </div>
+
         </div>
-        <div className='row mt-4'>
-          <div className='col-xl-6 col-12'>
-            <span>Iniciar sesión con:</span> <br/>
-            <a><img className='soccial-media' src={images.fb} alt="Facebook" /></a>
-            <a><img className='soccial-media' src={images.ch} alt="Chrome" /></a>
-            <a><img className='soccial-media' src={images.tw} alt="Twitter" /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+    );
+};
 
 export default Login;
