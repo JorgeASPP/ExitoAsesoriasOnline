@@ -32,21 +32,21 @@ const  categories = {
         name: 'Ciencias', 
         icon: require('../images/standar_icon.svg').default,
         subjects : [
-            {
+            { 
                 name: 'Biología',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/bilogía.svg').default,
             },
             {
                 name: 'Física',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/fisica.svg').default,
             },
             {
                 name: 'Química',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/quimica.svg').default,
             },
             {
                 name: 'Geología',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/geologia.svg').default,
             },
             {
                 name: 'Geografía',
@@ -72,41 +72,41 @@ const  categories = {
         subjects : [
             {
                 name: 'Algebra',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/algebra.svg').default,
             },
             {
                 name: 'calculo Diferencial',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/calculo.svg').default,
             },
             {
                 name: 'Calculo Integral',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/calculointegral.svg').default,
             },
             {
                 name: 'Estadistica',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/estadistica.svg').default,
             },
         ]
     },
     humanity: { 
         name: 'Humanidades', 
-        icon: require('../images/standar_icon.svg').default,
+        icon: require('../images/arte.svg').default,
         subjects : [
             {
                 name: 'Arte',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/arte.svg').default,
             },
             {
                 name: 'Ética',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/etica.svg').default,
             },
             {
                 name: 'Historia',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/historia.svg').default,
             },
             {
                 name: 'Ética profesional',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/eticapro.svg').default,
             },
         ]
     },
@@ -116,19 +116,19 @@ const  categories = {
         subjects : [
             {
                 name: 'Español',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/español.svg').default,
             },
             {
                 name: 'Inglés',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/ingles.svg').default,
             },
             {
                 name: 'Frances',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/frances.svg').default,
             },
             {
                 name: 'Italiano',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/italiano.svg').default,
             },
         ]
     },
@@ -138,19 +138,19 @@ const  categories = {
         subjects : [
             {
                 name: 'Algoritmos',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/algoritmos.svg').default,
             },
             {
                 name: 'Programación en C++',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/c++.svg').default,
             },
             {
                 name: 'Base de Datos',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/basedatos.svg').default,
             },
             {
                 name: 'Programación Cliente-Servidor',
-                icon: require('../images/standar_icon.svg').default,
+                icon: require('../images/clienteservidor.svg').default,
             },
         ]
     },
