@@ -25,7 +25,7 @@ function Login() {
           </h1>
           <h2 className='title'>Bienvenido</h2>
         </div>
-        <div className='row'>
+        <div className='row-title'>
           <div className='col-xl-6 col-12'>
             <form ref={formRef} onSubmit={handleSubmit} className='form'>
               <label htmlFor='email' className='label'>Email</label>
