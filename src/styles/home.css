@@ -30,8 +30,8 @@ body{
 }
 
 .section-logo{
-	min-width: 3rem;
-	max-width: 5.5rem;
+	min-width: 1.5rem;
+	max-width: 1.5rem;
 }
 
 .sub-section-logo{
@@ -40,9 +40,9 @@ body{
 }
 
 h1{
-	color: #3e3f40;
+	color: #1e1e1f;
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 h2{
@@ -53,6 +53,7 @@ h2{
 
 h5{
 	color: #3e3f40;
+	color: #1e1e1f;
 	font-weight: bold;
 	font-size: 1.5rem;
 }
@@ -81,7 +82,7 @@ h5{
 
 .card{
 	margin: 1rem;
-	border-radius: 1rem;
+	border-radius: 2rem;
 	border: none;
 }
 .border-gradient {
@@ -90,7 +91,18 @@ h5{
 	border-width: 5px;
 }
 .border-gradient-color {
-	border-image-source: linear-gradient(to left, #9f9d9d, #9f9d9d);
+	border: none; /* Elimina los bordes del botón */
+        background-color: #d4d4d4; /* Color de fondo gris claro */
+        color: #333; /* Color del texto gris oscuro */
+        padding: 10px 20px; /* Espaciado interno del botón */
+        border-radius: 5px; /* Borde redondeado */
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+	background-color: #b0b0b0; /* Color de fondo ligeramente más oscuro al pasar el mouse */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil al pasar el mouse */
+	transform: translateY(-2px); /* Efecto de levantamiento */
 }
 
 .card-img-top{
@@ -98,7 +110,7 @@ h5{
 }
 
 .nav-link{
-	font-weight: bold;
+	font-weight: lighter;
 	font-size: 1.3rem;
 	margin: 0 1rem;
 }
@@ -161,3 +173,4 @@ h5{
   .custom-arrow:hover {
 	background-color: #ccc;
   }
+

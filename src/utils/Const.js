@@ -30,7 +30,7 @@ const images = {
 const  categories = {
     sciences: { 
         name: 'Ciencias', 
-        icon: require('../images/standar_icon.svg').default,
+        icon: require('../images/cienciast.svg').default,
         subjects : [
             { 
                 name: 'Biología',
@@ -68,7 +68,7 @@ const  categories = {
     },
     maths: { 
         name: 'Matemáticas', 
-        icon: require('../images/standar_icon.svg').default,
+        icon: require('../images/matematicast.svg').default,
         subjects : [
             {
                 name: 'Algebra',
@@ -112,7 +112,7 @@ const  categories = {
     },
     languages: { 
         name: 'Idiomas', 
-        icon: require('../images/standar_icon.svg').default,
+        icon: require('../images/español.svg').default,
         subjects : [
             {
                 name: 'Español',
@@ -134,7 +134,7 @@ const  categories = {
     },
     programming: { 
         name: 'Programación', 
-        icon: require('../images/standar_icon.svg').default,
+        icon: require('../images/prog.svg').default,
         subjects : [
             {
                 name: 'Algoritmos',

@@ -30,25 +30,25 @@ const Navbar = () => {
               <a class="nav-link active text-center" aria-current="page" href="#">Ayuda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-center" aria-current="page" href="#">Contactanos</a>
+              <a class="nav-link active text-center" aria-current="page" href="#">Contáctanos</a>
             </li>
           </ul>
         </div>
         <div class="d-flex justify-content-center flex-xl-row-reverse" style={{minWidth: '20rem'}}>
           <ul class="navbar-nav">
-            <li class="nav-item" style={{marginRight: '0.1rem'}} title='Buscar'>
+            <li class="nav-item" style={{marginRight: '0.2rem'}} title='Buscar'>
               <a class="nav-link nav-action text-center" href="#" id="search">
-                <img src={images.search} />
+                <img class="icono" src={images.search} />
               </a>
             </li>
-            <li class="nav-item" style={{marginRight: '0.1rem'}} title='Chats'>
+            <li class="nav-item" style={{marginRight: '0.2rem'}} title='Chats'>
               <a class="nav-link nav-action text-center" href="#" id="chats">
-                <img src={images.chats} />
+                <img class="icono" src={images.chats} />
               </a>
             </li>
-            <li class="nav-item" style={{marginRight: '0.1rem'}} title='Notificaciones'>
+            <li class="nav-item" style={{marginRight: '0.2rem'}} title='Notificaciones'>
               <a class="nav-link nav-action text-center" href="#" id="notify">
-                <img src={images.notify} />
+                <img class="icono" src ={images.notify} />
               </a>
             </li>
             <li class="nav-item dropdown" style={{marginRight: '1rem'}}>
