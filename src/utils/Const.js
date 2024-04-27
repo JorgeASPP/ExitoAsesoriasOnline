@@ -7,7 +7,7 @@ const images = {
     ch: require('../images/chrome.png'),
     fb: require('../images/fb.png'),
     banners: [
-        {src: require('../images/carousel1.jpg')},
+        {src: require('../images/carro.jpg')},
         {src: require('../images/carousel2.jpg')},
         {src: require('../images/carousel3.jpg')},
     ],

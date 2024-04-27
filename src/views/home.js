@@ -21,7 +21,7 @@ function Home (){
                 </div>
             </div>
             <Carousel /> 
-            <Subjects /> 
+            
             <CardComponent data={categories.sciences} />
             <CardComponent data={categories.maths} />
             <CardComponent data={categories.humanity} />

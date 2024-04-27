@@ -40,13 +40,19 @@ body{
 }
 
 h1{
-	color: #0067CF;
+	color: #3e3f40;
 	font-weight: bold;
 	font-size: 3rem;
 }
 
 h2{
-	color: #0067CF;
+	color: #696b6c;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+h5{
+	color: #3e3f40;
 	font-weight: bold;
 	font-size: 1.5rem;
 }
@@ -55,7 +61,7 @@ h2{
 	margin-left: 1rem;
 	font-size: 1.5rem;
 	font-weight: bold;
-	color: #0067CF;
+	color: #1e1f1f;
 }
 .carousel-inner{
 	height: 20rem;
@@ -84,7 +90,7 @@ h2{
 	border-width: 5px;
 }
 .border-gradient-color {
-	border-image-source: linear-gradient(to left, #3f83c8, #4ab97b);
+	border-image-source: linear-gradient(to left, #9f9d9d, #9f9d9d);
 }
 
 .card-img-top{

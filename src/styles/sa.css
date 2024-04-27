@@ -1,0 +1,104 @@
+.sesiones-agendadas {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+h1 {
+    font-size: 2rem; /* Ajusta el tamaño del título */
+    text-align: center; /* Centra el título */
+    margin-bottom: 40px; /* Añade margen inferior al título */
+    margin-top: 40px;
+    
+}
+
+.sesion-card {
+    background-color: #f9f9f9; /* Cambia el color de fondo de las tarjetas */
+    border: 2px solid #e0e0e0; /* Añade un borde más visible */
+    border-radius: 15px; /* Redondea las esquinas del borde */
+    padding: 20px;
+    margin-bottom: 40px; /* Añade espacio entre las tarjetas */
+    transition: all 0.3s ease; /* Añade una transición suave */
+}
+
+.sesion-card:hover {
+    transform: translateY(-5px); /* Agrega un efecto de elevación al pasar el ratón sobre la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+}
+
+.sesion-card h2 {
+    font-size: 1.5rem; /* Aumenta el tamaño del título */
+    margin-bottom: 10px; /* Añade un margen inferior al título */
+    color: #333; /* Cambia el color del texto del título */
+}
+
+.sesion-card p {
+    font-size: 1rem; /* Cambia el tamaño del texto */
+    color: #666; /* Cambia el color del texto */
+    margin-bottom: 5px; /* Añade un margen inferior al texto */
+}
+
+.btn-agregar,
+.btn-cancelar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-agregar:hover,
+.btn-cancelar:hover {
+    background-color: #6dc5d6;
+}
+
+.small-input {
+    width: calc(33.33% - 10px); /* Ajusta el ancho de los campos de entrada */
+    margin-right: 10px; /* Añade espacio entre los campos de entrada */
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sesion-card {
+    position: relative; /* Establece la posición relativa para el contenedor de la tarjeta */
+}
+
+.btn-cancelar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.btn-cancelar:hover {
+    color: #fafcff; /* Cambia el color del texto al azul cuando se pasa el mouse */
+}
+
+.report-btn {
+    margin-top: 20px;
+}
+
+.generate-report-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.generate-report-button:hover {
+    background-color: #0056b3;
+}

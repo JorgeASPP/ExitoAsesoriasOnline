@@ -1,0 +1,9 @@
+.no-lateral-margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.carousel-inner {
+    margin-top: 20px; /* Ajusta según tu preferencia para el margen superior */
+    margin-bottom: 20px; /* Ajusta según tu preferencia para el margen inferior */
+}

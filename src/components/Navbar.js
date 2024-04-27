@@ -1,4 +1,5 @@
 import {images, userValues} from '../utils/Const';
+
 import '../styles/home.css';
 import { Link } from 'react-router-dom';
 
@@ -23,7 +24,7 @@ const Navbar = () => {
               <Link to='/tutors' class="nav-link active text-center" aria-current="page" href="#">Tutores</Link>
             </li>
             <li class="nav-item">
-              <Link to='/schedule' class="nav-link active text-center" aria-current="page" href="#">Agendar</Link>
+              <Link to='/sesiones-agendadas' class="nav-link active text-center" aria-current="page" href="#">Agendar</Link>
             </li>
             <li class="nav-item">
               <a class="nav-link active text-center" aria-current="page" href="#">Ayuda</a>
